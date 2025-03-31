@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surbhi Potdukhe | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        header h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .hobbies-section {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+        .hobby-card {
+            text-align: center;
+            padding: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-radius: 10px;
+            background: #ffffff;
+        }
+        .hobby-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .hobby-card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .hobby-card h5 {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #343a40;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Surbhi Potdukhe | Portfolio</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand me-auto" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="bgcolor">
+        <div class="container mt-5">
+            <div class="hobbies-section">
+                <h2 class="text-center mb-4">Hobbies</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="hobby-card">
+                            <img src="https://img-c.udemycdn.com/course/750x422/2726020_8c1d_3.jpg" alt="Singing">
+                            <h5>Singing</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hobby-card">
+                            <img src="https://kathakbyneha.in/wp-content/uploads/2020/06/Bharata_Natyam-Wikipedia-652x1024.jpg" alt="Dancing">
+                            <h5>Dancing</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hobby-card">
+                            <img src="https://www.candorblog.com/wp-content/uploads/2017/05/travel-022.jpg" alt="Traveling">
+                            <h5>Traveling</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hobby-card">
+                            <img src="https://i0.wp.com/blog.sapaindia.com/wp-content/uploads/2021/08/cover-song.jpg?fit=1024%2C576&ssl=1" alt="Public Speaking">
+                            <h5>Public Speaking</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Surbhi Potdukhe. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

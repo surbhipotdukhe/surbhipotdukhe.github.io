@@ -1,0 +1,83 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #00796b;
+    color: white;
+}
+
+.handwriting {
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    background-color: #004d40 !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #b2dfdb !important;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.intro img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #00796b;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: "background.jpg";
+}
+
+.container {
+    flex: 1;
+}
+
+footer {
+    padding: 10px;
+    background: #343a40;
+    color: white;
+    text-align: center;
+}
+.custom-btn {
+    background-color: #008080;  /* Teal color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    border: none;
+}
+
+.custom-btn:hover {
+    background-color: #20B2AA;  /* Lighter teal on hover */
+    color: white;
+}
+
+.bgcolor{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
